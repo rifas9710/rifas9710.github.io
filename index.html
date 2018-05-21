@@ -6,6 +6,70 @@
 <title>Home</title>
 <link href="Main.css" rel="stylesheet" type="text/css" />
 <style type="text/css">
+	button {
+    background-color: #251fd1; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.size_options h2 {
+position: relative;
+font-family:Arial, Helvetica, sans-serif;
+max-width: 960px;
+width:480px;
+margin: auto;
+text-align:center;
+color:white;
+font-size:30px;
+}
+.text_size h2 {
+position: relative;
+font-family:Arial, Helvetica, sans-serif;
+max-width: 960px;
+width:480px;
+margin: auto;
+text-align:center;
+color:white;
+font-size:30px;
+}
+
+#para1 {
+	position: relative;
+	max-width: 960px;
+	margin: auto;
+	color: #FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
+}
+	#para2 {
+	position: relative;
+	max-width: 960px;
+	margin: auto;
+	color: #FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#title1 {
+position: relative;
+font-family:"Monotype Corsiva";
+max-width: 960px;
+width:480px;
+margin: auto;
+text-align:center;
+color:#FFFFFF;
+font-size:30px;
+}
+	#body {
+		position: relative;
+		margin: auto;
+		max-width: 960px;
+		background-color: black;
+	}
+#img1 {
+	
+}
 .auto-style2 {
 	border-width: 0px;
 }
@@ -13,12 +77,12 @@
 	text-align: left;
 }
 .auto-style6 {
-	font-family: "Arial Rounded MT Bold";
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 	font-size: 40pt;
 	color: #1728E3;
 	text-align: center;
 }
-.auto-style7 {
+#recon {
 	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 	color: #1500FF;
 }
@@ -50,6 +114,12 @@
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 77%;
 }
+.auto-style13 {
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.auto-style14 {
+	font-size: 13pt;
+}
 </style>
 <script type="text/javascript">
 <!--
@@ -61,7 +131,7 @@ function FP_preloadImgs() {//v1.0
 </script>
 </head>
 
-<body bgcolor="#000000" onload="FP_preloadImgs(/*url*/'Image/FB2.gif')">
+<body id="body" bgcolor="#000000" onload="FP_preloadImgs(/*url*/'Image/FB2.gif')">
 <ul id="menu-bar" style="position: absolute; left: 220px; top: 198px; width: 777px;">
  <li class="active" style="left: 0px; top: 0px; width: 156px">
  <a href="index.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Home</a></li>
@@ -79,12 +149,12 @@ function FP_preloadImgs() {//v1.0
  <li style="left: -1px; top: -1px"><a href="Contact.html">Contact Us</a></li>
 </ul>
 <a href="index.html">
-<img alt="" height="115" src="Image/logo%20cut.png" style="position: absolute; left: 473px; top: 70px" width="367" class="auto-style2" /></a>
+<img id="img1" alt="" height="115" src="Image/logo%20cut.png" style="position: absolute; left: 473px; top: 70px" width="367" class="auto-style2" /></a>
 	<!-- Begin master div#header -->
-<div id="Master" style="position: absolute; width: 737px; height: 953px; z-index: -10; left: 266px; top: 257px;">
+<div id="Master" style="position: absolute; width: 737px; height: 1018px; z-index: -10; left: 266px; top: 257px;">
 	<!-- Begin background div#header -->
-	<div style="position: absolute; width: auto; height: 951px; z-index: -10; left: 0px; top: 0px;" id="layer1">
-		<img alt="" height="960" src="Image/bk2.png" width="737" />
+	<div style="position: absolute; width: auto; height: 1018px; z-index: -10; left: 0px; top: 0px;" id="layer1">
+		<img alt="" height="1023" src="Image/bk2.png" width="737" />
 	</div>
 		<!-- end div#header -->
 			<!-- Begin Text + background div#header -->
@@ -92,10 +162,10 @@ function FP_preloadImgs() {//v1.0
 				<strong>THE MAGICAL 
 				HUB FOR OLD MOVIES</strong></div>
 				
-				<div style="position: absolute; width: 715px; height: 100px; z-index: 1; left: 6px; top: 118px;" id="layer1">
+				<div style="position: absolute; width: 715px; height: 100px; z-index: 1; left: 6px; top: 106px;" id="layer1">
 				
 				
-					<p class="auto-style7" style="height: 100px">At Reel Classic Company we would want 
+					<p id="recon" style="height: 100px" class="auto-style14">At Reel Classic Company we would want 
 					to show an experience for the young viewers what they had 
 					missed out on throughout the history of cinematography. As a 
 					company who would strive to the maximum ability to not let 
@@ -121,9 +191,9 @@ function FP_preloadImgs() {//v1.0
 			
 								<!-- end div#header -->
 							<!-- Social media2 div#header -->		
-		<div style="position: absolute; width: 280px; height: 83px; z-index: 1; left: 271px; top: 489px;" id="Social Media1">
+		<div style="position: absolute; width: 280px; height: 83px; z-index: 1; left: 269px; top: 519px;" id="Social Media1">
 		<p><a href="merchandise.html">
-			<img src="Image/checkmerchn.gif" onmouseover="this.src='Image/checkmerchc.gif'" onmouseout="this.src='Image/checkmerchn.gif'" height="75" width="265" class="auto-style2" /></a>
+			<img src="Image/checkmerchn.gif" onmouseover="this.src='Image/checkmerchc.gif'" onmouseout="this.src='Image/checkmerchn.gif'" height="45" width="176" class="auto-style2" /></a>
 		</div>
 					<!-- end div#header -->
 
@@ -142,9 +212,9 @@ function FP_preloadImgs() {//v1.0
 		
 		
 		<!-- Begin div#header -->
-<div id="Footer" style="position: absolute; width: 732px; height: 100px; z-index: 278; left: 269px; top: 1221px;">
+<div id="Footer" style="position: absolute; width: 732px; height: 100px; z-index: 278; left: 267px; top: 1289px;">
 		<p id="legal" class="auto-style12">Copyright &copy;TheReelClassic... All Rights Reserved.</p>
-		<p class="MsoNormal" style="color: #FFFFFF; text-align: center; font-size: 70%">
+		<p id="dis" class="MsoNormal" style="color: #FFFFFF; text-align: center; font-size: 70%">
 		<span class="auto-style3" lang="EN-US">Disclaimer: This site does not 
 		store any files on its server. All contents are provided by 
 		non-affiliated third parties.<o:p></o:p></span></p>
@@ -224,8 +294,69 @@ function FP_preloadImgs() {//v1.0
 		</div>
 					<!-- end div#header -->
 
+<div class="size_options" style="left: -18px; top: 256px; width: 275px; height: 232px; z-index: 1; position: absolute;">
+<h2 id="para1" style="left: -40px; top: 0px; width: 200px" class="auto-style13">Background</h2>
+<button type="button" onclick="myFunctiond()" style="width: 205px">
+	Normal Background</button>
 
+<script>
+function myFunctiond() {
+    document.getElementById("body").style.backgroundColor ="#000000";
+     document.getElementById("para1").style.color ="#FFFFFF";
+          document.getElementById("para2").style.color ="#FFFFFF";
+      document.getElementById("legal").style.color ="#FFFFFF";
+      document.getElementById("dis").style.color ="#FFFFFF";
 
+       document.getElementById("img1").src="Image/logo%20cut.png";
+
+    
+}
+</script>
+<div>
+	<button type="button" onclick="myFunctionz()" style="z-index: 1; position: absolute; top: 96px; left: 0px; width: 205px;">
+	White Background</button>
+
+<script>
+function myFunctionz() {
+    document.getElementById("body").style.backgroundColor ="#FFFFFF";
+     document.getElementById("para1").style.color ="#000000";
+     document.getElementById("para2").style.color ="#000000";
+
+      document.getElementById("legal").style.color ="#000000";
+      document.getElementById("dis").style.color ="#000000";
+       document.getElementById("img1").src="Image/logocut2.png";
+}
+</script>
+</div>
+</div>
+</div>
+
+<div style="position: absolute; width: 273px; height: 211px; z-index: 1; left: -18px; top: 429px;" id="layer1">
+
+<div class="size_options" style="left: -2px; top: 81px; width: 275px; height: 232px; z-index: 1; position: absolute;">
+<h2 id="para2" style="left: -40px; top: 0px; width: 200px" class="auto-style13">
+Font Size</h2>
+<button type="button" onclick="myFunctionzz()" style="width: 205px">
+	Default Font</button>
+
+<script>
+function myFunctionzz() {
+    document.getElementById("recon").style.fontSize = "13pt";
+    
+}
+</script>
+<div>
+	<button type="button" onclick="myFunctionzzz()" style="z-index: 1; position: absolute; top: 96px; left: 0px; width: 205px;">
+	Large Font</button>
+
+<script>
+function myFunctionzzz() {
+    document.getElementById("recon").style.fontSize = "14pt";}
+</script>
+</div>
+</div>
+
+</div>
 
 </body>
 </html>

@@ -6,6 +6,81 @@
 <title>Contact</title>
 <link href="Main.css" rel="stylesheet" type="text/css" />
 <style type="text/css">
+	button {
+    background-color: #251fd1; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.size_options h2 {
+position: relative;
+font-family:Arial, Helvetica, sans-serif;
+max-width: 960px;
+width:480px;
+margin: auto;
+text-align:center;
+color:white;
+font-size:30px;
+}
+.text_size h2 {
+position: relative;
+font-family:Arial, Helvetica, sans-serif;
+max-width: 960px;
+width:480px;
+margin: auto;
+text-align:center;
+color:white;
+font-size:30px;
+}
+
+#para1 {
+	position: relative;
+	max-width: 960px;
+	margin: auto;
+	color: #FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
+}
+	#para2 {
+	position: relative;
+	max-width: 960px;
+	margin: auto;
+	color: #FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#title1 {
+position: relative;
+font-family:"Monotype Corsiva";
+max-width: 960px;
+width:480px;
+margin: auto;
+text-align:center;
+color:#FFFFFF;
+font-size:30px;
+}
+body {
+		position: relative;
+		margin: auto;
+		max-width: 960px;
+		background-color: black;
+	}
+#img1 {
+	
+}
+.auto-style2 {
+	border-width: 0px;
+}
+.auto-style3 {
+	text-align: left;
+}
+#auto-style7 {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	color: #1500FF;
+}
+
 .auto-style1 {
 	border-width: 0px;
 }
@@ -15,10 +90,22 @@
 	color: #FFFFFF;
 	font-size: 77%;
 }
+.layer9 {
+    background: linear-gradient(to top left, #000099 0%, #003399 100%);
+}
+
+.auto-style3 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.auto-style4 {
+	font-size: 16pt;
+}
+
 </style>
 </head>
 
-<body bgcolor="#000000">
+<body id="body" bgcolor="#000000">
 <ul id="menu-bar" style="position: absolute; left: 220px; top: 198px; width: 777px;">
  <li style="left: 0px; top: 0px; width: 156px"><a href="index.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Home</a></li>
  <li><a href="#">Classic Films</a>
@@ -35,7 +122,7 @@
  <li style="left: -1px; top: -1px" class="active"><a href="Contact.html">Contact Us</a></li>
 </ul>
 <a href="index.html">
-<img alt="" height="115" src="Image/logo%20cut.png" style="position: absolute; left: 473px; top: 70px" width="367" class="auto-style1"/></a>
+<img id="img1" alt="" height="115" src="Image/logo%20cut.png" style="position: absolute; left: 473px; top: 70px" width="367" class="auto-style1"/></a>
 
 <!------ contact us ----->
 <div style="position: absolute; width: 739px; height: 267px; z-index: -1; left: 267px; top: 260px;" id="layer1">
@@ -67,8 +154,15 @@
 </div>
 
 <!------ contact us ----->
+<div id="layer12" style="position: absolute; width: 720px; height: 82px; z-index: 277; left: 282px; top: 817px">
+	<p id ="gof3" class="auto-style4" style="color: #F5FF00; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"><strong>Address: 61 
+	Unity Street Reel Engine Apartment 2, 
+	B19 2YH</strong><o:p>,</o:p><strong> Birmingham</strong><o:p></o:p></p>
+	<p id="gof4" class="auto-style4" style="color: #F5FF00; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"><strong>Telephone: +44 (0) 800 0378 666</strong><o:p></o:p></p>
+</div>
+
 		<!-- Begin div#header -->
-<div id="Footer" style="position: absolute; width: 732px; height: 55px; z-index: 278; left: 269px; top: 824px;">
+<div id="Footer" style="position: absolute; width: 732px; height: 55px; z-index: 278; left: 271px; top: 969px;">
 		<p id="legal" class="auto-style2">Copyright &copy;TheReelClassic... All Rights Reserved.</p>
 		<p class="MsoNormal" style="color: #FFFFFF; text-align: center; font-size: 70%">
 		<span class="auto-style3" lang="EN-US">Disclaimer: This site does not 
@@ -76,6 +170,76 @@
 		non-affiliated third parties.<o:p></o:p></span></p>
 </div>
 	<!-- end div#header -->
+			<div style="position: absolute; width: 739px; height: 174px; z-index: -121; left: 267px; top: 801px;" class="layer9">
+</div>
+
+
+<div class="size_options" style="left: -18px; top: 256px; width: 275px; height: 232px; z-index: 1; position: absolute;">
+<h2 id="para1" style="left: -40px; top: 0px; width: 200px" class="auto-style13">Background</h2>
+<button type="button" onclick="myFunctiond()" style="width: 205px">
+	Normal Background</button>
+
+<script>
+function myFunctiond() {
+    document.getElementById("body").style.backgroundColor ="#000000";
+    document.getElementById("para1").style.color ="#FFFFFF";
+    document.getElementById("para2").style.color ="#FFFFFF";
+    document.getElementById("legal").style.color ="#FFFFFF";
+    document.getElementById("img1").src="Image/logo%20cut.png";
+}
+</script>
+<div>
+	<button type="button" onclick="myFunctionz()" style="z-index: 1; position: absolute; top: 96px; left: 0px; width: 205px;">
+	White Background</button>
+
+<script>
+function myFunctionz() {
+    document.getElementById("body").style.backgroundColor ="#FFFFFF";
+    document.getElementById("para1").style.color ="#000000";
+    document.getElementById("para2").style.color ="#000000";
+    document.getElementById("legal").style.color ="#000000";
+    document.getElementById("dis").style.color ="#000000";
+    document.getElementById("img1").src="Image/logo%20cut2.png";
+}
+</script>
+</div>
+</div>
+</div>
+
+
+
+<!-- assessbilty buttons font-->
+<div style="position: absolute; width: 273px; height: 211px; z-index: 1; left: -18px; top: 429px;" id="layer1">
+
+<div class="size_options" style="left: -2px; top: 81px; width: 275px; height: 232px; z-index: 1; position: absolute;">
+<h2 id="para2" style="left: -40px; top: 0px; width: 200px" class="auto-style13">Font Size</h2>
+<button type="button" onclick="myFunctionzz()" style="width: 205px">
+	Default Font</button>
+
+<script>
+function myFunctionzz() {
+    document.getElementById("gof3").style.fontSize = "16pt";
+    document.getElementById("gof4").style.fontSize = "16pt";
+    
+}
+</script>
+<div>
+	<button type="button" onclick="myFunctionzzz()" style="z-index: 100; position: absolute; top: 96px; left: 0px; width: 205px;">
+	Large Font</button>
+
+<script>
+function myFunctionzzz() {
+    document.getElementById("gof3").style.fontSize = "20pt";
+    document.getElementById("gof4").style.fontSize = "20pt";
+}
+    
+</script>
+</div>
+</div>
+
+</div>
+<!-- assessbilty buttons font-->
+
 
 
 </body>

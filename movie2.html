@@ -7,6 +7,71 @@
 <title>Blade Runner</title>
 <link href="Main.css" rel="stylesheet" type="text/css" />
 <style type="text/css">
+	button {
+    background-color: #251fd1; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.size_options h2 {
+position: relative;
+font-family:Arial, Helvetica, sans-serif;
+max-width: 960px;
+width:480px;
+margin: auto;
+text-align:center;
+color:white;
+font-size:30px;
+}
+.text_size h2 {
+position: relative;
+font-family:Arial, Helvetica, sans-serif;
+max-width: 960px;
+width:480px;
+margin: auto;
+text-align:center;
+color:white;
+font-size:30px;
+}
+
+#para1 {
+	position: relative;
+	max-width: 960px;
+	margin: auto;
+	color: #FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
+}
+	#para2 {
+	position: relative;
+	max-width: 960px;
+	margin: auto;
+	color: #FFFFFF;
+	font-family:Arial, Helvetica, sans-serif;
+}
+#title1 {
+position: relative;
+font-family:"Monotype Corsiva";
+max-width: 960px;
+width:480px;
+margin: auto;
+text-align:center;
+color:#FFFFFF;
+font-size:30px;
+}
+body {
+		position: relative;
+		margin: auto;
+		max-width: 960px;
+		background-color: black;
+	}
+#img1 {
+	
+}
+
 .auto-style1 {
 	color: #8E8E8E;
 }
@@ -48,6 +113,7 @@
     background: linear-gradient(to top left, #000099 0%, #003399 100%);
 }
 
+
  p.MsoNormal
 	{margin-top:0cm;
 	margin-right:0cm;
@@ -68,6 +134,14 @@
 }
 .auto-style15 {
 	color: #F5FF00;
+}
+.auto-style16 {
+	color: #F5FF00;
+	font-size: 14pt;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.auto-style19 {
+	text-decoration: none;
 }
 </style>
 <script type="text/javascript">
@@ -126,9 +200,9 @@ function FP_swapImgRestore() {//v1.0
 </head>
 
 <head>
-<div>
+<div style="height: 1442px">
 	<a href="index.html">
-	<img alt="" height="116" src="Image/logo%20cut.png" style="position: absolute; left: 473px; top: 70px" width="367" class="auto-style14" /></a></div>
+	<img id="img1" alt="" height="116" src="Image/logo%20cut.png" style="position: absolute; left: 473px; top: 70px" width="367" class="auto-style14" /></a></div>
 
 
 <div style="position: absolute; width: 152px; height: 31px; z-index: 1; left: 266px; top: 253px;" id="layer1">
@@ -141,7 +215,7 @@ function FP_swapImgRestore() {//v1.0
 								<a href="movie2.html"><span class="auto-style3">Blade Runner</span></a></span>     </div>
 </div>								
 </head>
-<body bgcolor="black" onload="FP_preloadImgs(/*url*/'Image/facebook2.gif',/*url*/'Image/OD2.gif',/*url*/'Image/youtube1.gif')" style="height: 1320px"></body>
+<body id="body" bgcolor="black" onload="FP_preloadImgs(/*url*/'Image/facebook2.gif',/*url*/'Image/OD2.gif',/*url*/'Image/youtube1.gif')" style="height: 1320px"></body>
 </html>
 
 	&nbsp;<div id="layer2" style="position: absolute; width: 737px; height: 121px; z-index: -10; left: 266px; top: 257px">
@@ -172,10 +246,10 @@ function FP_swapImgRestore() {//v1.0
 					£2.49 (HD) on YouTube Movies</span></a></div>
 					
 					<body>
-<div style="position: absolute; width: 741px; height: 307px; z-index: 1; left: 266px; top: 860px;" id="layer1">
+<div style="position: absolute; width: 741px; height: 307px; z-index: 1; left: 266px; top: 913px;" id="layer1">
 						<img alt="" height="415" src="Image/Blade%20Runner/swhd.png" width="736" /></div>
 						
-						<div style="position: absolute; width: 737px; height: 188px; z-index: -121; left: 266px; top: 675px;" class="layer9">
+						<div style="position: absolute; width: 737px; height: 307px; z-index: -121; left: 266px; top: 675px;" class="layer9">
 </div>
 
 					
@@ -184,51 +258,142 @@ function FP_swapImgRestore() {//v1.0
 <div style="position: absolute; width: 100px; height: 100px; z-index: 5; left: 1098px; top: 490px;" id="layer1"></div>
 &nbsp;<a href="merchandise.html"><img id="img3" height="64" alt="" onmouseout="FP_swapImgRestore()" onmouseover="FP_swapImg(1,1,/*id*/'img3',/*url*/'Image/OD2.gif')" src="Image\OD.gif" style="position: absolute; left: 941px; top: 609px" width="63" /></a>
 
-<div id="layer4" style="position: absolute; width: 703px; height: 100px; z-index: 6; left: 275px; top: 685px">
-	<p class="MsoNormal" style="font-size: 15pt; color: #F5FF00;"><strong>Deckard whose job 
-	is to hunt Replicants beings who is forced by the police Boss. The job of 
-	Deckard who was assigned to eliminate rogue Replicants whom have escaped 
-	from the colonies. Then they have returned to Earth. Then falls in love with 
-	a Replicant girl named Rachel at the Tyrell Corporation.</strong><o:p></o:p></p>
-	<p class="MsoNormal" style="color: #1A1A1A">&nbsp;</p>
+
+<!-- assessbilty -->
+
+<div id="layer9" style="position: absolute; width: 703px; height: 79px; z-index: 6; left: 281px; top: 682px" class="auto-style16">
+
+
+	<p id="recon" class="MsoNormal" style="font-size: 12pt; color: #F5FF00; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"><strong>Deckard whose job is to hunt Replicants beings who is forced by the 
+	police Boss. The job of Deckard who was assigned to eliminate rogue 
+	Replicants whom have escaped from the colonies. Then they have returned to 
+	Earth. Then falls in love with a Replicant girl named Rachel at the Tyrell 
+	Corporation.</strong> </div>
+	
+<div id="layer12" style="position: absolute; width: 326px; height: 82px; z-index: 277; left: 677px; top: 802px">
+	<p id ="gof3" class="MsoNormal" style="color: #F5FF00; font-size: 12pt; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"><strong>
+	Duration: 117 min</strong><o:p></o:p></p>
+	<p id="gof4" class="MsoNormal" style="color: #F5FF00; font-size: 12pt; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"><strong>
+	Quality: HD</strong><o:p></o:p></p>
+	<p id="gof5" class="MsoNormal" style="color: #F5FF00; font-size: 12pt; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"><strong>
+	Release: 1982</strong><o:p></o:p></p>
 </div>
-<div id="layer8" style="position: absolute; width: 168px; z-index: 277; left: 677px; top: 779px; height: 82px;" class="auto-style5">
-	<p class="MsoNormal" style="color: #F5FF00; font-size: 15pt"><strong>Duration: 117 min</strong></p>
-	<p class="MsoNormal" style="height: 13px; color: #F5FF00; font-size: 15pt;">
-	<strong>Quality: HD</strong></p>
-	<p class="MsoNormal" style="height: 78px; color: #F5FF00; font-size: 15pt;">
-	<strong>Release: 1982</strong></p>
-</div>
-<div id="layer5" style="position: absolute; width: 375px; height: 83px; z-index: 277; left: 276px; top: 779px">	<p class="MsoNormal" style="font-size: 15pt"><strong>
-	<span class="auto-style15">Genres: 
-	</span><a href="https://en.wikipedia.org/wiki/Science_fiction_film">
+
+
+<div id="layer10" style="position: absolute; width: 375px; height: 83px; z-index: 277; left: 281px; top: 802px">
+
+	<p id="gof" class="MsoNormal" style="color: #F5FF00; font-size: 12pt; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"><strong>Genres: 
+	<a href="https://en.wikipedia.org/wiki/Science_fiction_film" class="auto-style19">
 	<span class="auto-style15">Sci-Fi</span></a><span class="auto-style15">,
-	</span><a href="https://en.wikipedia.org/wiki/Thriller_film">
-	<span class="auto-style15">Thriller</span></a></strong><o:p></o:p></p>
-	<p class="MsoNormal" style="height: 13px; font-size: 15pt;"><strong>
-	<span class="auto-style15">Actors: </span><a href="https://en.wikipedia.org/wiki/Sean_Young">
-	<span class="auto-style15">Sean Young</span></a><span class="auto-style15">,
-	</span><a href="https://en.wikipedia.org/wiki/Edward_James_Olmos">
-	<span class="auto-style15">Edward James Olmos</span></a></strong></p>
-	<p class="MsoNormal" style="height: 78px; font-size: 15pt;"><strong>
-	<span class="auto-style15">Directors:
 	</span>
-	<a href="https://en.wikipedia.org/wiki/Ridley_Scott">
+	<a href="https://en.wikipedia.org/wiki/Thriller_film" class="auto-style19">
+	<span class="auto-style15">Thriller</span></a><o:p></o:p></strong></p>
+	<p id="gof1" class="MsoNormal" style="color: #F5FF00; font-size: 12pt; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"><strong>Actors: 
+	<a href="https://en.wikipedia.org/wiki/Sean_Young" class="auto-style19">
+	<span class="auto-style15">Sean Young</span></a><span class="auto-style15">,
+	</span>
+	<a href="https://en.wikipedia.org/wiki/Edward_James_Olmos" class="auto-style19">
+	<span class="auto-style15">Edward James Olmos</span></a></strong></p>
+	<p id="gof2" class="MsoNormal" style="color: #F5FF00; font-size: 12pt; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"><strong>
+	Directors: 
+	<a href="https://en.wikipedia.org/wiki/Ridley_Scott" class="auto-style19">
 	<span class="auto-style15">Ridley Scott</span></a></strong><o:p></o:p></p>
+
 </div>
-<div id="Footer" style="position: absolute; width: 732px; height: 100px; z-index: 278; left: 269px; top: 1276px;">
+
+<!-- assessbilty -->
+
+
+<div id="Footer" style="position: absolute; width: 732px; height: 82px; z-index: 278; left: 269px; top: 1337px;">
 		<p id="legal" class="auto-style12">Copyright &copy;TheReelClassic... All Rights Reserved.</p>
-		<p class="MsoNormal" style="color: #FFFFFF; text-align: center; font-size: 70%">
+		<p id="dis" class="MsoNormal" style="color: #FFFFFF; text-align: center; font-size: 70%">
 		<span class="auto-style3" lang="EN-US">Disclaimer: This site does not 
 		store any files on its server. All contents are provided by 
 		non-affiliated third parties.<o:p></o:p></span></p>
-		<p class="MsoNormal" style="color: #FFFFFF">&nbsp;</p>
-		<p id="links">&nbsp;</p>
+</div>
 
+</div>
+
+<div class="size_options" style="left: -18px; top: 256px; width: 275px; height: 232px; z-index: 1; position: absolute;">
+<h2 id="para1" style="left: -40px; top: 0px; width: 200px" class="auto-style13">Background</h2>
+<button type="button" onclick="myFunctiond()" style="width: 205px">
+	Normal Background</button>
+
+<script>
+function myFunctiond() {
+    document.getElementById("body").style.backgroundColor ="#000000";
+     document.getElementById("para1").style.color ="#FFFFFF";
+          document.getElementById("para2").style.color ="#FFFFFF";
+      document.getElementById("legal").style.color ="#FFFFFF";
+      document.getElementById("dis").style.color ="#FFFFFF";
+       document.getElementById("img1").src="Image/logo%20cut.png";
+
+    
+}
+</script>
+<div>
+	<button type="button" onclick="myFunctionz()" style="z-index: 1; position: absolute; top: 96px; left: 0px; width: 205px;">
+	White Background</button>
+
+<script>
+function myFunctionz() {
+    document.getElementById("body").style.backgroundColor ="#FFFFFF";
+     document.getElementById("para1").style.color ="#000000";
+     document.getElementById("para2").style.color ="#000000";
+      document.getElementById("legal").style.color ="#000000";
+      document.getElementById("dis").style.color ="#000000";
+       document.getElementById("img1").src="Image/logocut2.png";
+}
+</script>
+</div>
+</div>
 </div>
 
 
 
+<!-- assessbilty buttons font-->
+<div style="position: absolute; width: 273px; height: 211px; z-index: 1; left: -18px; top: 429px;" id="layer1">
 
+<div class="size_options" style="left: -2px; top: 81px; width: 275px; height: 232px; z-index: 1; position: absolute;">
+<h2 id="para2" style="left: -40px; top: 0px; width: 200px" class="auto-style13">
+Font Size</h2>
+<button type="button" onclick="myFunctionzz()" style="width: 205px">
+	Default Font</button>
 
+<script>
+function myFunctionzz() {
+    document.getElementById("recon").style.fontSize = "12pt";
+    document.getElementById("gof").style.fontSize = "12pt";
+    document.getElementById("gof1").style.fontSize = "12pt";
+    document.getElementById("gof2").style.fontSize = "12pt";
+    document.getElementById("gof3").style.fontSize = "12pt";
+    document.getElementById("gof4").style.fontSize = "12pt";
+    document.getElementById("gof5").style.fontSize = "12pt";
 
+    
+}
+</script>
+<div>
+	<button type="button" onclick="myFunctionzzz()" style="z-index: 100; position: absolute; top: 96px; left: 0px; width: 205px;">
+	Large Font</button>
+
+<script>
+function myFunctionzzz() {
+    document.getElementById("recon").style.fontSize = "15pt";
+    document.getElementById("gof").style.fontSize = "15pt";
+    document.getElementById("gof1").style.fontSize = "15pt";
+    document.getElementById("gof2").style.fontSize = "15pt";
+    document.getElementById("gof3").style.fontSize = "15pt";
+    document.getElementById("gof4").style.fontSize = "15pt";
+    document.getElementById("gof5").style.fontSize = "15pt";
+
+    
+    
+}
+    
+</script>
+</div>
+</div>
+
+</div>
+<!-- assessbilty buttons font-->
