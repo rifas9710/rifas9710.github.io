@@ -70,6 +70,9 @@ body {
 #img1 {
 	
 }
+.auto-style2 {
+	border-width: 0px;
+}
 .auto-style3 {
 	text-align: left;
 }
@@ -87,18 +90,17 @@ body {
 	color: #FFFFFF;
 }
 .auto-style14 {
-	font-family: "Bahnschrift SemiBold";
+	font-family: "Franklin Gothic Heavy";
 	color: #3E00FF;
+	font-style: normal;
+	font-weight: 400;
 }
 .auto-style15 {
-	font-family: "Bahnschrift SemiBold";
+	font-family: "Franklin Gothic Heavy";
 	font-size: 25pt;
 	color: #3E00FF;
-}
-.auto-style16 {
-	font-family: "Bahnschrift SemiBold";
-	margin-top: 0px;
-	color: #3E00FF;
+	font-style: normal;
+	font-weight: 400;
 }
 .auto-style17 {
 	margin-top: 0px;
@@ -118,7 +120,7 @@ body {
 
 <body id="body" bgcolor="#000000">
 <ul id="menu-bar" style="position: absolute; left: 220px; top: 198px; width: 777px;">
- <li style="left: 0px; top: 0px; width: 156px"><a href="index.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Home</a></li>
+ <li style="left: 0px; top: 0px; width: 156px"><a href="homepage.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Home</a></li>
  <li><a href="#">Classic Films</a>
   <ul>
    <li><a href="movie1.html">STAR WARS</a></li>
@@ -132,20 +134,21 @@ body {
  <li class="active"><a href="about.html">About</a></li>
  <li style="left: -1px; top: -1px"><a href="Contact.html">Contact Us</a></li>
 </ul>
-<img id="img1" alt="" height="115" src="Image/logo%20cut.png" style="position: absolute; left: 473px; top: 70px" width="367" />
+<a href="homepage.html">
+<img id="img1" alt="" height="115" src="Image/logo%20cut.png" style="position: absolute; left: 473px; z-index: 10; top: 70px" width="367" class="auto-style2" /></a></a>
 	<!-- Begin master div#header -->
-<div id="Master" style="position: absolute; width: 737px; height: 486px; z-index: -10; left: 266px; top: 257px;">
+<div id="Master" style="position: absolute; width: 737px; height: 486px; z-index:-10; left: 266px; top: 257px;">
 	<!-- Begin background div#header -->
-	<div style="position: absolute; width: auto; height: auto; z-index: -10" id="layer1">
+	<div style="position: absolute; width: auto; height: auto; z-index:-10" id="layer1">
 		<img alt="" height="498" src="Image/bk2.png" width="737" />
 	</div>
 		<!-- end div#header -->
 			<!-- Begin Text + background div#header -->
 			<div style="position: absolute; width: 736px; height: 245px; z-index: 1; left: 0px; top: 0px;" id="layer1">
-				<p align="center" class="auto-style15" style="height: 16px">-Our Mission-<o:p></o:p></p>
-				<p id="gof" align="center" class="auto-style16" style="height: 1px">Our mission is to get 
-				back in to the time mission and seek out what we had missed out.<o:p></o:p></p>
-				<p align="center" class="auto-style15" style="height: 16px">-About-<o:p></o:p></p>
+				<p align="center" id="gof4" class="auto-style15" style="height: 16px">-Our Mission-<o:p></o:p></p>
+				<p id="gof" align="center" class="auto-style14" style="height: 1px">Our mission is to get back in to the time mission and seek out what we had missed out.
+			    <o:p></o:p></p>
+			  <p align="center" id="gof5" class="auto-style15" style="height: 16px">-About-<o:p></o:p></p>
 				
 				<p id="gof1" align="center" class="auto-style14">At reel classic company 
 				we would want to show an experience for the young viewers what they 
@@ -182,13 +185,23 @@ body {
 
 <script>
 function myFunctiond() {
-    document.getElementById("body").style.backgroundColor ="#000000";
+     document.getElementById("body").style.backgroundColor ="#000000";
      document.getElementById("para1").style.color ="#FFFFFF";
-      document.getElementById("legal").style.color ="#FFFFFF";
-      document.getElementById("dis").style.color ="#FFFFFF";
-       document.getElementById("img1").src="Image/logo%20cut.png";
+     document.getElementById("para2").style.color ="#FFFFFF";
+     document.getElementById("recon").style.color ="#0000FF";
+     document.getElementById("recon1").style.color ="#0000FF";
+     document.getElementById("legal").style.color ="#FFFFFF";
+     document.getElementById("dis").style.color ="#FFFFFF";
+     document.getElementById("img1").src="Image/logo%20cut.png";
+     
+       document.getElementById("gof").style.color ="#F5FF00";
+       document.getElementById("gof1").style.color ="#F5FF00";
+  	   document.getElementById("gof2").style.color ="#F5FF00";
+       document.getElementById("gof3").style.color ="#F5FF00";
+       document.getElementById("gof4").style.color ="#F5FF00";
+       document.getElementById("gof5").style.color ="#F5FF00";
+       document.getElementById("gof6").style.color ="#F5FF00";
 
-    
 }
 </script>
 <div>
@@ -198,10 +211,22 @@ function myFunctiond() {
 <script>
 function myFunctionz() {
     document.getElementById("body").style.backgroundColor ="#FFFFFF";
-     document.getElementById("para1").style.color ="#000000";
-      document.getElementById("legal").style.color ="#000000";
-      document.getElementById("dis").style.color ="#000000";
-       document.getElementById("img1").src="Image/logocut2.png";
+    document.getElementById("para1").style.color ="#000000";
+    document.getElementById("para2").style.color ="#000000";
+    document.getElementById("recon").style.color ="#FFA800";
+    document.getElementById("recon1").style.color ="#FFA800";
+    document.getElementById("legal").style.color ="#000000";
+    document.getElementById("dis").style.color ="#000000";
+    document.getElementById("img1").src="Image/logocut2.png";
+    
+    	   document.getElementById("gof").style.color ="#0000FF";
+       document.getElementById("gof1").style.color ="#0000FF";
+  	   document.getElementById("gof2").style.color ="#0000FF";
+       document.getElementById("gof3").style.color ="#0000FF";
+       document.getElementById("gof4").style.color ="#0000FF";
+       document.getElementById("gof5").style.color ="#0000FF";
+       document.getElementById("gof6").style.color ="#0000FF";
+
 }
 </script>
 </div>
@@ -214,8 +239,7 @@ function myFunctionz() {
 <div style="position: absolute; width: 273px; height: 211px; z-index: 1; left: -18px; top: 429px;" id="layer1">
 
 <div class="size_options" style="left: -2px; top: 81px; width: 275px; height: 232px; z-index: 1; position: absolute;">
-<h2 id="para1" style="left: -40px; top: 0px; width: 200px" class="auto-style13">
-Font Size</h2>
+<h2 id="para2" style="left: -40px; top: 0px; width: 200px" class="auto-style13">Font Size</h2>
 <button type="button" onclick="myFunctionzz()" style="width: 205px">
 	Default Font</button>
 

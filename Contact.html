@@ -81,9 +81,6 @@ body {
 	color: #1500FF;
 }
 
-.auto-style1 {
-	border-width: 0px;
-}
 .auto-style2 {
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
@@ -102,12 +99,18 @@ body {
 	font-size: 16pt;
 }
 
+.auto-style5 {
+	font-size: 16pt;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	color: #F5FF00;
+}
+
 </style>
 </head>
 
 <body id="body" bgcolor="#000000">
 <ul id="menu-bar" style="position: absolute; left: 220px; top: 198px; width: 777px;">
- <li style="left: 0px; top: 0px; width: 156px"><a href="index.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Home</a></li>
+ <li style="left: 0px; top: 0px; width: 156px"><a href="homepage.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Home</a></li>
  <li><a href="#">Classic Films</a>
   <ul>
    <li><a href="movie1.html">STAR WARS</a></li>
@@ -121,8 +124,8 @@ body {
  <li><a href="about.html">About</a></li>
  <li style="left: -1px; top: -1px" class="active"><a href="Contact.html">Contact Us</a></li>
 </ul>
-<a href="index.html">
-<img id="img1" alt="" height="115" src="Image/logo%20cut.png" style="position: absolute; left: 473px; top: 70px" width="367" class="auto-style1"/></a>
+<a href="homepage.html">
+<img id="img1" alt="" height="115" src="Image/logo%20cut.png" style="position: absolute; left: 473px; top: 70px" width="367" class="auto-style2" /></a>
 
 <!------ contact us ----->
 <div style="position: absolute; width: 739px; height: 267px; z-index: -1; left: 267px; top: 260px;" id="layer1">
@@ -143,7 +146,7 @@ body {
     </select>
 
     <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+	  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 	  <strong>
 
     <input type="submit" value="Submit"></strong>
@@ -154,12 +157,6 @@ body {
 </div>
 
 <!------ contact us ----->
-<div id="layer12" style="position: absolute; width: 720px; height: 82px; z-index: 277; left: 282px; top: 817px">
-	<p id ="gof3" class="auto-style4" style="color: #F5FF00; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"><strong>Address: 61 
-	Unity Street Reel Engine Apartment 2, 
-	B19 2YH</strong><o:p>,</o:p><strong> Birmingham</strong><o:p></o:p></p>
-	<p id="gof4" class="auto-style4" style="color: #F5FF00; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"><strong>Telephone: +44 (0) 800 0378 666</strong><o:p></o:p></p>
-</div>
 
 		<!-- Begin div#header -->
 <div id="Footer" style="position: absolute; width: 732px; height: 55px; z-index: 278; left: 271px; top: 969px;">
@@ -170,7 +167,7 @@ body {
 		non-affiliated third parties.<o:p></o:p></span></p>
 </div>
 	<!-- end div#header -->
-			<div style="position: absolute; width: 739px; height: 174px; z-index: -121; left: 267px; top: 801px;" class="layer9">
+			<div id="orange" style="position: absolute; width: 739px; height: 174px; z-index: -121; left: 267px; top: 801px;" class="layer9">
 </div>
 
 
@@ -185,7 +182,13 @@ function myFunctiond() {
     document.getElementById("para1").style.color ="#FFFFFF";
     document.getElementById("para2").style.color ="#FFFFFF";
     document.getElementById("legal").style.color ="#FFFFFF";
-    document.getElementById("img1").src="Image/logo%20cut.png";
+    document.getElementById("img1").src="Image/logo%20cut.png"
+    document.getElementById("orange").style.background= "linear-gradient(to top left, #000099 0%, #003399 100%)";
+    document.getElementById("gof").style.color ="#F5FF00";
+    document.getElementById("gof1").style.color ="#F5FF00";
+
+
+    
 }
 </script>
 <div>
@@ -195,11 +198,15 @@ function myFunctiond() {
 <script>
 function myFunctionz() {
     document.getElementById("body").style.backgroundColor ="#FFFFFF";
-    document.getElementById("para1").style.color ="#000000";
-    document.getElementById("para2").style.color ="#000000";
-    document.getElementById("legal").style.color ="#000000";
-    document.getElementById("dis").style.color ="#000000";
-    document.getElementById("img1").src="Image/logo%20cut2.png";
+     document.getElementById("para1").style.color ="#000000";
+          document.getElementById("para2").style.color ="#000000";
+      document.getElementById("legal").style.color ="#000000";
+       document.getElementById("img1").src="Image/logocut2.png";
+       document.getElementById("orange").style.background= "linear-gradient(to top left, #eeff00 0%, #d8e804 100%)";
+       
+
+	   document.getElementById("gof").style.color ="#0000FF";
+       document.getElementById("gof1").style.color ="#0000FF";     
 }
 </script>
 </div>
@@ -218,8 +225,8 @@ function myFunctionz() {
 
 <script>
 function myFunctionzz() {
-    document.getElementById("gof3").style.fontSize = "16pt";
-    document.getElementById("gof4").style.fontSize = "16pt";
+    document.getElementById("gof").style.fontSize = "16pt";
+    document.getElementById("gof1").style.fontSize = "16pt";
     
 }
 </script>
@@ -229,14 +236,19 @@ function myFunctionzz() {
 
 <script>
 function myFunctionzzz() {
-    document.getElementById("gof3").style.fontSize = "20pt";
-    document.getElementById("gof4").style.fontSize = "20pt";
+    document.getElementById("gof").style.fontSize = "20pt";
+    document.getElementById("gof1").style.fontSize = "20pt";
 }
     
 </script>
 </div>
 </div>
 
+</div>
+<div id="layer12" style="position: absolute; width: 720px; height: 135px; z-index: 277; left: 282px; top: 817px">
+	<p id="gof" class="auto-style5"><strong>Address: 61 Unity Street Reel Engine 
+	Apartment 2, B19 2YH, Birmingham</strong><o:p></o:p></p>
+	<p id="gof1" class="auto-style5"><strong>Telephone: +44 (0) 800 0378 666</strong><o:p></o:p></p>
 </div>
 <!-- assessbilty buttons font-->
 
